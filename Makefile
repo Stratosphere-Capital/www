@@ -13,9 +13,12 @@ define build_less
 	rm -f $(CSS_DIR)/$(CSS_TMP_FILE)
 endef
 
-.PHONY: clean demo build build-ltr
+.PHONY: clean demo build build-ltr prepare
 
-build: clean build-ltr
+build: clean prepare build-ltr
+
+prepare:
+	yarn install
 
 build-ltr:
 	$(call build_less,$(LESS_FILE),$(CSS_FILE))
