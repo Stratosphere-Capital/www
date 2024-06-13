@@ -59,7 +59,7 @@ disqusShortname = "yourdiscussshortname"
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 2
-    url = "https://twitter.com/strt/"
+    url = "https://twitter.com/strato_capital/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
